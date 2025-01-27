@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-image: url(/img/Layer\ 13.png);
+  width: 1200px;
+  height: 690px;
+  margin: 0 auto;
+}
+.logo__head {
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+.logo__head {
+  padding: 40px 105px 0 85px;
+}
+.list div a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+.list div a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.text__main {
+  margin-left: 105px;
+  margin-top: 120px;
+}
+.text__head {
+  font-size: 90px;
+  color: rgb(19, 14, 39);
+  font-weight: bold;
+  line-height: 0.889;
+  margin: 0 auto;
+}
+.text__head1 {
+  font-size: 90px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 0.889;
+  margin: 0 auto;
+}
+.text {
+  color: white;
+  width: 460px;
+  padding-top: 50px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+}
+.container2 {
+  width: 1200px;
+  height: 480px;
+  margin: 0 auto;
+}
+.head__box {
+  margin-left: 85px;
+  height: 245px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 65px;
+}
+.text__main2 {
+  display: flex;
+  font-size: 25px;
+  color: rgb(198, 35, 20);
+  font-weight: bold;
+  line-height: 25px;
+  margin-left: 85px;
+  margin-bottom: 80px;
+}
+.text__head2 {
+  color: #c62314;
+  margin: 50px 20px 50px 0;
+}
+.text__headd2 {
+  color: #130e27;
+  margin: 50px 20px 50px 0;
+}
+.item {
+  text-align: center;
+  justify-content: center;
+}
+.item__text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(22, 22, 22);
+  line-height: 1.4;
+}
+.container3 {
+  display: flex;
+  background-color: #130e27;
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+  padding: 0 105px 0 85px;
+}
+.text__main34 {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  margin-right: 100px;
+}
+.text_mainp {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+}
+.button_red {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: white;
+  width: 30%;
+  height: 100%;
+}
+.knopka {
+  width: 270px;
+  height: 65px;
+  background-color: red;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  line-height: 22px;
+}
+.knopka:hover {
+  background-color: blue;
+}
+.button {
+  margin-left: 250px;
+}
+.button1 {
+  border-radius: 10px;
+  background-color: #c62314;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  line-height: 22px;
+  text-align: right;
+  margin: 0px 105px 30px 0;
+  padding: 15px;
+}
+.team {
+  width: 1200px;
+  background-color: #f3f3f3;
+  margin: 0 auto;
+}
+.container4 {
+  width: 1010px;
+  height: 640px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+.team__title {
+  font-size: 50px;
+  color: rgb(19, 14, 39);
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+  margin: 60px 0 60px 0;
+}
+.item__title {
+  font-size: 22px;
+  color: rgb(22, 22, 22);
+  line-height: 22px;
+  text-align: center;
+  margin: 40px 0 50px 0;
+}
+.team__inner {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+.item1 {
+  width: 320px;
+  height: 400px;
+  text-align: center;
+  background-color: #fff;
+}
+.icons {
+  font-size: 20px;
+  color: rgb(22, 22, 22);
+  line-height: 20px;
+  text-align: center;
+  list-style-type: none;
+  margin-top: 35px;
+}
+
+.buttonn {
+  background-color: black;
+  border-radius: 10px;
+  width: 210px;
+  height: 45px;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  line-height: 22px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+.buttonn:hover {
+  background-color: #f70e0e;
+}
+.container5 {
+  width: 1200px;
+  height: 190px;
+  background-color: black;
+  margin: 0 auto;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+}
+.text__red {
+  color: #c62314;
+}
